@@ -8,25 +8,25 @@ function App() {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header title="Title" scroll>
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
-                    </Navigation>
+                <Header title="Title" scroll className="header-color">
+                    <Navigation >
+                        <Link to="/resume" > Resume </Link>
+                        <Link to="/aboutme" > About me </Link>
+                        <Link to="/projects" > Projects </Link>
+                        <Link to="/contact" > Contact </Link>
+                    </Navigation >
                 </Header>
                 <Drawer title="Title">
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
-                    </Navigation>
+                    <Navigation >
+                        <Link to="/resume" > Resume </Link>
+                        <Link to="/aboutme" > About me </Link>
+                        <Link to="/projects" > Projects </Link>
+                        <Link to="/contact" > Contact </Link>
+                    </Navigation >
                 </Drawer>
                 <Content>
                     <div className="page-content" />
-                    <Main />
+                    <Main/>
                 </Content>
             </Layout>
         </div>
