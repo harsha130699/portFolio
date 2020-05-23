@@ -8,7 +8,7 @@ function Landing() {
                 <div className="container">
                     <div className="avatar">
                         <div className="chat">
-                            <div>
+                            <div className="chatContent">
                                 <span class="text_1">Hi! My name is Harsha.</span>
                                 <span class="text_2">I <span>💖</span> to code</span>
                             </div>
